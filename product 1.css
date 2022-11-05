@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to left , green , yellow);
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1em;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 wheat , 0 16px 20px 0;
+  }
+ .btn:hover{ background-color: yellowgreen;
+    color: red;
+ }
+ #buy{
+     background-color: rgb(19, 206, 206);
+ }
+ #buy:hover{
+     background-color: red ;
+ }
+ .inline-block{
+    text-align: center;
+    display: inline-table;
+ }
+ h3{
+        color: blUE;
+       
+ }
+@media screen and (max-width:1015px) {
+    .inline-block{
+        font-size: small;
+    }
+}
+@media screen and (max-width:923px) {
+    .inline-block{
+        font-size: x-small;
+    }
+}
